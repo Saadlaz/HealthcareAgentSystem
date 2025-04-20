@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jade">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jade.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/json-20231013.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/sqlite-jdbc-3.42.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,18 +1,34 @@
-## Getting Started
+# 🧠Healthcare Multi-Agent System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project showcases the **design and modeling of a Healthcare Multi-Agent System (MAS). The system simulates intelligent coordination between autonomous agents such as patients, doctors, schedulers, and triage evaluators, with the help of a Machine Learning / LLM backend.
 
-## Folder Structure
+## 📌 Overview
 
-The workspace contains two folders by default, where:
+Agent-Oriented Software Engineering (AOSE) involves autonomous entities—**agents**—that interact, collaborate, and make decisions to achieve system-wide goals. **AUML (Agent UML)** is a modeling language that extends UML to express such complex interactions, behaviors, and roles in multi-agent systems.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+In this project, we use AUML to model:
+- Patient symptom submission
+- Automated triage via ML/LLM
+- ICU assignment for critical cases
+- Appointment scheduling for non-urgent cases
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📁 Project Structure
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+This repository includes:
 
-## Dependency Management
+- ✅ **AUML Diagrams**
+  - Sequence Diagram (Agent Interaction)
+  - Agent Class Diagram
+  - Agent Goal Diagram
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- ✅ **Code snippets (PlantUML)**
+  - Easily editable for rendering with tools like PlantUML or integrated IDE plugins.
+
+
+<details>
+<summary>PlantUML Code</summary>
+
+```plantuml
+@startuml Enhanced Healthcare Agent System Sequence
+...
+@enduml
